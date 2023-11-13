@@ -191,3 +191,105 @@ main svg{
                 height: 100%;
                 background-repeat: no-repeat;
             }
+
+
+            /* Third section side */
+
+    .sec_3{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        height: 80vh;
+    }  
+        .sec_3 .left_side{
+            display: flex;
+            height: 100%;
+            width: 40%;
+        }
+            .sec_3 .left_side .left_background{
+                width: 100%;
+                height: 100%;
+                background: url(../images/undraw_happy_news_hxmt.png);
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        .sec_3 .right_side{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: left;
+            text-align: justify;
+            height: 40%;
+            width: 40%;
+        }
+            .sec_3 .right_side h4{
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 48px;
+            }
+            .sec_3 .right_side p{
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 32px;
+            }
+            /* Section 3 is over */
+
+            /* Fourth section styling */
+    .sec_4{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        height: 80vh;
+    }  
+        .sec_4 .left_side{
+            display: flex;
+            height: 100%;
+            width: 40%;
+        }
+            .sec_4 .left_side .left_background{
+                width: 100%;
+                height: 100%;
+                background: url(../images/undraw_mention_6k5d.png);
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        .sec_4 .right_side{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: left;
+            text-align: justify;
+            height: 60%;
+            width: 40%;
+        }
+            .sec_4 .right_side h5{
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 48px;
+            }
+            .sec_4 .right_side p{
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 32px;
+            }
+            .sec_4 .right_side button{
+                background: transparent;
+                border: 2px solid #091133;
+                color: #091133;
+                width: 40%;
+                min-height: 50px;
+                cursor: pointer;
+                transition: .8s all ease;
+            }
+            .sec_4 .right_side button:hover{
+                background: #091133;
+                color: #fff;
+            }
