@@ -1,0 +1,63 @@
+/* Styling of section 5 - last before footer */
+
+.sec_5{
+    max-width: 100%;
+    width: 100%;
+    background: url('../images/Rectangle.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90vh;
+    padding: 20vh;
+}
+    .sec_5 h6{
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px;
+        color: #091133;
+    }
+    .sec_5 p{
+        color: #6F7CB2;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        max-width: 40%;
+    }
+    .sec_5 p:nth-child(3){
+        color: #091133;
+        font-weight: 600;
+        font-size: 26px;
+        letter-spacing: 6px;
+    }
+    .sec_5 .button_side{
+        width: 40%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+    }
+        .sec_5 .button_side button{
+            width: 50%;
+            height: 50%;
+            transition: .9s all ease;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            background: #091133;
+            border: 2px solid ;
+            color: #fff;
+            cursor: pointer;
+        }
+        .sec_5 .button_side button:hover{
+            background: transparent;
+            border: 2px solid ;
+            color: #091133;
+        }
