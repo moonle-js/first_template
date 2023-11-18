@@ -40,7 +40,7 @@ header{
             }
                 header nav .nav_left ul li{
                     display: flex;
-                    justify-content: center;
+                    justify-content: flex-start;
                     align-items: center;
                     text-align: center;
                     width: 33%;

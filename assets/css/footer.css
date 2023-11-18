@@ -7,7 +7,7 @@ footer{
     background: #E7ECFF;
 }
     footer .copyrights{
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
         border-bottom: 1px solid #939EA4;
         height: 50%;
@@ -46,7 +46,7 @@ footer{
     footer nav{
         display: flex;
         justify-content: space-between;
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
     }
         footer nav .nav_left{

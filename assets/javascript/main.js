@@ -20,3 +20,16 @@ window.addEventListener('scroll', function(){
         button.style.color = '#fff';
     }
 });
+
+const purchase = document.querySelectorAll('.purchase');
+purchase.forEach(function(e){
+    e.addEventListener('click', function(){
+
+        if(document.title != 'Landing'){
+            window.location = './htmls/landing.html';
+        }else{
+            console.log('All true');
+        }
+
+    });
+})

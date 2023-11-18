@@ -1,0 +1,93 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: clamp(50%, 100%, 100%);
+    height: clamp(100vh, 100vh, 100vh);
+}
+    main section{
+        display: flex;
+        justify-content: space-between;
+        width: clamp(50%, 70%, 90%);
+        height: 95%;
+        align-items: center;
+        margin-top: auto;
+    }
+        main section .left_side{
+            display: flex;
+            flex-flow: column;
+            justify-content: space-evenly;
+            align-items: left;
+            width: 55%;
+            height: 100%;
+        }
+            main section .left_side .left_texts{
+                height: 40%;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
+                main section .left_side .left_texts h1{
+                    width: 50%;
+                    font-size: 40px;
+                    font-style: 700;
+                    font-weight: 500;
+                    line-height: 48px;
+                }
+                main section .left_side .left_texts p{
+                    color: #6F7CB2;
+                    text-align: justify;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 26px;
+                }
+            main section .left_side .left_cards{
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                height: 50%;
+            }
+                main section .left_side .left_cards .card{
+                    width: 350px;
+                    height: 45%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: flex-start;
+                }
+                    main section .left_side .left_cards .card img{
+                        margin-left: 5%;
+                        width: 50px;
+                        height: 50px;
+                    }
+                    main section .left_side .left_cards .card p.title{
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 26px;
+                        color: #091133
+                    }
+                    main section .left_side .left_cards .left_card p:last-child{
+                        color: #5D6970;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 18px;
+                    }
+
+                    /* Styles for right side with only image */
+
+        main section .right_side{
+            display: flex;
+            background: url(../images/Vert.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: right;
+            width: 40%;
+            height: 80%;
+            margin-top: auto;
+        }
